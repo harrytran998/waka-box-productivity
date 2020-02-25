@@ -70,6 +70,7 @@ function generateBarChart(percent, size) {
     .padEnd(size, syms.substring(0, 1))
 }
 
-;(async () => {
+// prettier-ignore
+(async () => {
   await main()
 })()
